@@ -1,5 +1,8 @@
 <?php
 
-$layout = new Layout();
-$layout-> index();
+include "cabecalho.php";
+include "painelUser.php";
+include "formLogin.php";
+include "rodape.php";
+
 ?>
